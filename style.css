@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+#slider{
+    width: 100%;
+    background-image: url(images/1.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 10px 2px #d0c2c2;
+    border-radius: 5px;
+}
+#right-arrow,#left-arrow{
+    width: 30px;
+    cursor: pointer;
+}
+#left-arrow{
+    transform: rotate(180deg);
+}
